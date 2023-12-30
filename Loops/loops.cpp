@@ -57,7 +57,21 @@ int main() {
     float cal = (5.0/9) * (fahr - 32);
     cout << fahr << "F = " << cal << "C" << endl;
 
+    // number 234 q. product - sum = ?
+    int m = 234;
+    int product = 1;
+    int sum = 0;
 
+    for(int i; m > 0; ){
+        i = m % 10;
+        m = m /10;
+        product = product * i;
+        sum = sum + i;
+    }
+    cout << product - sum << endl;
+
+    // https://leetcode.com/problems/number-of-1-bits/ 
     return 0;
+
 
 }
