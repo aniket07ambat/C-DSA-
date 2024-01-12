@@ -15,6 +15,8 @@ void extrapair() {
 
     pair<int, int> arr[] = {{1,2}, {2,3}, {4,5}};
     cout << arr[1].second << " " << arr[2].first << endl;
+
+    
     
 }
 
