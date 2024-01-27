@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+// array used widely.
 // Fill function to fill whole array with a value. 
 /*
 int main()
